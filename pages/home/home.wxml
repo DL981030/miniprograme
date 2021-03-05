@@ -1,2 +1,5 @@
-<!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<view>{{name}}</view>
+<view wx:for="{{moves}}" wx:key="item">{{item.name}}</view>
+<view>当前计数：{{counter}}</view>
+<button bindtap="click" size="mini">-</button>
+<button bindtap="click2" size="mini">+</button>

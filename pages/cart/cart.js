@@ -1,31 +1,11 @@
-// pages/home/home.js
+// pages/cart/cart.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    name: 'code1',
-    moves: [{
-      name: 'aa'
-    }, {
-      name: 'bb'
-    }, {
-      name: 'cc'
-    }],
-    counter: 10
-  },
-  click() {
-    this.data.counter--
-    this.setData({
-      counter: this.data.counter
-    })
-  },
-  click2() {
-    this.data.counter++
-    this.setData({
-      counter: this.data.counter
-    })
+
   },
 
   /**
